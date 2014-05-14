@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  
+  <title>Eyuel's ToDo App</title>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+  <link type="text/css" rel="stylesheet" href="css/custom.css"/>
+
+</head>
+<body>
+  
+  <div class="appContianer">
+    <header><h1>Eyuel's ToDo App</h1></header>
+    <section>
+      <div class="row">
+          <div class="col-md-4">
+            <form action="" role="form" method="post" id="taskForm">
+              <div class="form-group">
+                <h1>Enter Task here</h1>
+                <hr>
+                <input type="text"  class="form-control" id="task" placeholder="task">
+                <button type="submit" class="btn btn-default btn-sm btn-block btn-custom" >Add Task</button>              
+              </div>
+            </form>
+          </div>
+
+        
+
+          <div class="col-md-8">
+            <h1>TASKS</h1><hr>
+            <div class="table table-condensed table-hover task-table" style="table-layout:fixed">
+                    
+            </div>       
+          </div> 
+      </div>   
+    </section>
+    
+  </div>
+ 
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
